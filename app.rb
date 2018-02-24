@@ -25,6 +25,18 @@ class RockPaperScissors < Sinatra::Base
     erb :play
   end
 
+  post '/rock' do
+    # do something with ROCK
+  end
+
+  post '/paper' do
+    # do something with PAPER
+  end
+
+  post '/scissors' do
+    # do something with SCISSSORS
+  end
+
   # start the server if ruby file executed directly
   run! if app_file == $0
 end

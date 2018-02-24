@@ -1,8 +1,6 @@
 feature 'while playing the game' do
   before do
-    visit '/'
-    fill_in :player_1_name, with: 'Genghis Khan'
-    click_button 'Submit'
+    register_and_play
   end
 
   scenario 'presented choices of throws Rock, Paper, or Scissors' do
