@@ -3,6 +3,14 @@ require 'sinatra/base'
 class RockPaperScissors < Sinatra::Base
   enable :sessions
 
+  get '/' do
+    erb :index
+  end
+
+  post '/names' do
+    p params[:player_1_name]
+  end
+
 
 
 
