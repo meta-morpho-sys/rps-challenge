@@ -18,23 +18,20 @@ class RockPaperScissors < Sinatra::Base
     player1 = Player.new(params[:player_1_name])
     player2 = Player.new(params[:player_2_name])
     @game = Game.start(player1, player2)
+    redirect '/choice'
+  end
+
+  get '/choice' do
+    erb :choice
+  end
+
+  post '/play' do
+    # do something with ROCK
     redirect '/play'
   end
 
   get '/play' do
     erb :play
-  end
-
-  post '/rock' do
-    # do something with ROCK
-  end
-
-  post '/paper' do
-    # do something with PAPER
-  end
-
-  post '/scissors' do
-    # do something with SCISSSORS
   end
 
   # start the server if ruby file executed directly

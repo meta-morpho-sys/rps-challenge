@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fba2656-e7c4-4d21-97ed-8fa5cdeaf006" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/paper.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/rps_stylee.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/scissors.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/small_stone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/choice.erb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/enter_names_spec.rb" afterPath="$PROJECT_DIR$/spec/features/enter_names_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/play_spec.rb" afterPath="$PROJECT_DIR$/spec/features/play_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/web_helpers.rb" afterPath="$PROJECT_DIR$/spec/features/web_helpers.rb" />
+      <change beforePath="$PROJECT_DIR$/images/rock paper scissors.jpg" afterPath="$PROJECT_DIR$/public/rock_paper_scissors.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/squirrel.jpeg" afterPath="$PROJECT_DIR$/public/squirrel.jpeg" />
       <change beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
-      <change beforePath="$PROJECT_DIR$/views/play.erb" afterPath="$PROJECT_DIR$/views/play.erb" />
+      <change beforePath="$PROJECT_DIR$/views/play.erb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,48 +24,38 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/rps_challenge@Register_players_name__rps_challenge.coverage" NAME="Register players name: rps-challenge Coverage Results" MODIFIED="1519484429743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player__rps_challenge.coverage" NAME="Player: rps-challenge Coverage Results" MODIFIED="1519475822255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_presented_choices_of_throws_Rock__Paper__or_Scissors__rps_challenge.coverage" NAME="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge Coverage Results" MODIFIED="1519485047216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_can_choose_one_option__rps_challenge.coverage" NAME="while playing the game can choose one option: rps-challenge Coverage Results" MODIFIED="1519485058977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@All_specs_in_rps_challenge__rps_challenge.coverage" NAME="All specs in rps-challenge: rps-challenge Coverage Results" MODIFIED="1519482369574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_presented_choices_of_throws_Rock__Paper__or_Scissors__rps_challenge.coverage" NAME="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge Coverage Results" MODIFIED="1519755523639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_can_choose_one_option__rps_challenge.coverage" NAME="while playing the game can choose one option: rps-challenge Coverage Results" MODIFIED="1519755556895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@All_specs_in_rps_challenge__rps_challenge.coverage" NAME="All specs in rps-challenge: rps-challenge Coverage Results" MODIFIED="1519755686761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game__rps_challenge.coverage" NAME="Game: rps-challenge Coverage Results" MODIFIED="1519482620632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/play.erb">
+      <file leaf-file-name="choice.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/choice.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="play_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/play_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,8 +81,10 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/features/enter_names_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/web_helpers.rb" />
-        <option value="$PROJECT_DIR$/spec/features/play_spec.rb" />
         <option value="$PROJECT_DIR$/views/index.erb" />
+        <option value="$PROJECT_DIR$/public/rps_stylee.css" />
+        <option value="$PROJECT_DIR$/spec/features/play_spec.rb" />
+        <option value="$PROJECT_DIR$/public/rps_style.css" />
         <option value="$PROJECT_DIR$/views/play.erb" />
         <option value="$PROJECT_DIR$/app.rb" />
       </list>
@@ -146,6 +143,11 @@
             <path>
               <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -171,7 +173,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
@@ -187,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.while playing the game can choose one option: rps-challenge">
+  <component name="RunManager" selected="RSpec.All specs in rps-challenge: rps-challenge">
     <configuration name="All specs in rps-challenge: rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rps-challenge" />
@@ -357,11 +364,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.while playing the game can choose one option: rps-challenge" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Register players name: rps-challenge" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Game: rps-challenge" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.while playing the game can choose one option: rps-challenge" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Register players name: rps-challenge" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Game: rps-challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -376,44 +383,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519404151359</updated>
-      <workItem from="1519404152811" duration="10641000" />
+      <workItem from="1519404152811" duration="23262000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Register_players_name__rps-challenge - 2018.02.24 at 14h 59m 36s.xml">
-      <configuration name="Register players name: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.02.27 at 18h 21m 27s.xml">
+      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Register_players_name__rps-challenge - 2018.02.24 at 15h 00m 18s.xml">
-      <configuration name="Register players name: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Register_players_name__rps-challenge - 2018.02.24 at 15h 00m 30s.xml">
-      <configuration name="Register players name: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.24 at 15h 10m 59s.xml">
+    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.26 at 18h 18m 51s.xml">
       <configuration name="while playing the game can choose one option: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 03m 36s.xml">
+    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.26 at 18h 19m 25s.xml">
+      <configuration name="while playing the game can choose one option: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.26 at 18h 27m 04s.xml">
+      <configuration name="while playing the game can choose one option: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.27 at 17h 50m 16s.xml">
+      <configuration name="while playing the game can choose one option: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="while_playing_the_game_can_choose_one_option__rps-challenge - 2018.02.27 at 18h 19m 17s.xml">
+      <configuration name="while playing the game can choose one option: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.27 at 17h 50m 25s.xml">
       <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 05m 36s.xml">
+    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.27 at 17h 56m 43s.xml">
       <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 09m 01s.xml">
+    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.27 at 17h 56m 58s.xml">
       <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 09m 06s.xml">
-      <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 10m 20s.xml">
-      <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.24 at 15h 10m 48s.xml">
+    <history-entry file="while_playing_the_game_presented_choices_of_throws_Rock,_Paper,_or_Scissors__rps-challenge - 2018.02.27 at 18h 18m 44s.xml">
       <configuration name="while playing the game presented choices of throws Rock, Paper, or Scissors: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10641000" />
+    <option name="totallyTimeSpent" value="23262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="816" extended-state="6" />
@@ -424,7 +431,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.50572246" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -532,7 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/rock paper scissors.jpg">
+    <entry file="file://$PROJECT_DIR$/public/rock_paper_scissors.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -569,7 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/squirrel.jpeg">
+    <entry file="file://$PROJECT_DIR$/public/squirrel.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -649,34 +656,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stone_transp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/rps_stylee.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
+    <entry file="file://$PROJECT_DIR$/views/choice.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/play.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/play_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
