@@ -17,6 +17,8 @@ class Weapon
   def beats?(other)
     if RULES[@type] == other.type
       :win
+    elsif type == other.type
+      :draw
     else
       :lose
     end
