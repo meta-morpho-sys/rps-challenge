@@ -9,6 +9,6 @@ describe Player do
 
   it 'chooses his weapon' do
     player.choose_weapon'rock'
-    expect(player.weapon).to eq :rock
+    expect(player.weapon).to be_an_instance_of Weapon
   end
 end

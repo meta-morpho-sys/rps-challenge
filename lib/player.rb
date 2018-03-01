@@ -9,6 +9,6 @@ class Player
   end
 
   def choose_weapon(type)
-    @weapon = Weapon.new(type).type
+    @weapon = Weapon.new(type)
   end
 end
