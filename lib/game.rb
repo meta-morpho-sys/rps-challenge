@@ -1,3 +1,5 @@
+require 'player'
+
 # Exercises the logic of the game
 class Game
   attr_reader :players
@@ -21,4 +23,17 @@ class Game
   def player2
     @players.last
   end
+
+  def weapon1
+    player1.weapon
+  end
+
+  def weapon2
+    player2.weapon
+  end
+
+  def result(weapon1, weapon2)
+    weapon1.beats?(weapon2)
+  end
 end
+

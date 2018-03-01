@@ -6,4 +6,9 @@ describe Player do
   it 'has name' do
     expect(subject.name).to eq :'Genghis Khan'
   end
+
+  it 'chooses his weapon' do
+    player.choose_weapon'rock'
+    expect(player.weapon).to eq :rock
+  end
 end
