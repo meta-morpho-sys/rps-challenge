@@ -1,32 +1,37 @@
 require 'game'
 
 describe Game do
-  subject(:rps) { Game.new(player1, player2) }
+  subject(:game) { Game.start(player1, player2) }
   let(:player1) { double :player, name: 'Bob' }
   let(:player2) { double :player, name: 'Scott' }
-  let(:rock) { double :weapon }
-  let(:scissors) { double :weapon }
+  let(:rock) { double :weapon, type: 'rock' }
+  let(:scissors) { double :weapon, type: 'scissors' }
 
 
   it 'starts with two players' do
-    expect(rps.players.size).to eq 2
+    expect(game.players.size).to eq 2
   end
 
   example '#player1' do
-    expect(rps.player1).to eq player1
+    expect(game.player1).to eq player1
   end
 
   example '#player2' do
-    expect(rps.player2).to eq player2
+    expect(game.player2).to eq player2
   end
 
   example '#weapon1' do
-    allow(player1).to receive(:weapon)
-    expect(rps.weapon1).to eq rock
+    allow(player1).to receive(:weapon).and_return rock
+    expect(game.weapon1).to eq rock
   end
 
-  example 'winning weapon' do
-    allow(rock).to receive(:beats?).with(:scissors).and_return :win
-    expect(rps.result(:rock, :scissors)).to eq :win
+  example '#weapon2' do
+    allow(player2).to receive(:weapon).and_return scissors
+    expect(game.weapon2).to eq scissors
+  end
+
+  example 'a winning weapon' do
+    allow(rock).to receive(:beats?).with(scissors).and_return :win
+    expect(game.result(rock, scissors)).to eq :win
   end
 end

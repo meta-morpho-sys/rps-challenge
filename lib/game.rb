@@ -24,10 +24,12 @@ class Game
     @players.last
   end
 
+  # Returns weapon object
   def weapon1
     player1.weapon
   end
 
+  # Returns weapon object
   def weapon2
     player2.weapon
   end
