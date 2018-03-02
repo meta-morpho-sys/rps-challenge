@@ -34,8 +34,8 @@ class Game
     player2.weapon
   end
 
-  def result(weapon1, weapon2)
-    weapon1.beats?(weapon2)
+  def throw(weapon1, weapon2)
+    weapon1 <=> weapon2
   end
 end
 

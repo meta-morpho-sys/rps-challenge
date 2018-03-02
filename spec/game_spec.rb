@@ -30,8 +30,8 @@ describe Game do
     expect(game.weapon2).to eq scissors
   end
 
-  example 'a winning weapon' do
-    allow(rock).to receive(:beats?).with(scissors).and_return :win
-    expect(game.result(rock, scissors)).to eq :win
+  example 'a winning throw' do
+    allow(rock).to receive(:<=>).with(scissors).and_return 1
+    expect(game.throw(rock, scissors)).to eq 1
   end
 end
