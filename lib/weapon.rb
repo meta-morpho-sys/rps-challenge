@@ -14,13 +14,13 @@ class Weapon
     @type = type.to_sym
   end
 
-  def beats?(other)
+  def <=>(other)
     if RULES[type] == other.type
-      :win
+      1
     elsif type == other.type
-      :draw
+      0
     else
-      :lose
+      -1
     end
   end
 end
