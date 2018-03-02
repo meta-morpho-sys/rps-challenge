@@ -1,4 +1,4 @@
-require 'player'
+require_relative 'player'
 
 # Exercises the logic of the game
 class Game
@@ -25,13 +25,13 @@ class Game
   end
 
   # Returns weapon object
-  def weapon1
-    player1.weapon
+  def choose_weapon1(type)
+    player1.choose_weapon(type)
   end
 
   # Returns weapon object
-  def weapon2
-    player2.weapon
+  def choose_weapon2(type)
+    player2.choose_weapon(type)
   end
 
   def throw(weapon1, weapon2)

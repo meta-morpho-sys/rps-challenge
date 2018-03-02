@@ -21,13 +21,13 @@ describe Game do
   end
 
   example '#weapon1' do
-    allow(player1).to receive(:weapon).and_return rock
-    expect(game.weapon1).to eq rock
+    allow(player1).to receive(:choose_weapon).with(:rock).and_return rock
+    expect(game.choose_weapon1(:rock)).to eq rock
   end
 
   example '#weapon2' do
-    allow(player2).to receive(:weapon).and_return scissors
-    expect(game.weapon2).to eq scissors
+    allow(player2).to receive(:choose_weapon).with(:scissors).and_return scissors
+    expect(game.choose_weapon2(:scissors)).to eq scissors
   end
 
   example 'a winning throw' do
