@@ -15,4 +15,12 @@ describe 'RPS' do
     weapon2 = game.weapon2
     expect(game.result(weapon1, weapon2)).to eq :win
   end
+
+  example 'players choose their weapons and lose a throw' do
+    player1.choose_weapon 'paper'
+    player2.choose_weapon 'scissors'
+    weapon1 = game.weapon1
+    weapon2 = game.weapon2
+    expect(game.result(weapon1, weapon2)).to eq :lose
+  end
 end
