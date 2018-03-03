@@ -26,7 +26,9 @@ class RockPaperScissors < Sinatra::Base
   end
 
   post '/play' do
-    # do something with ROCK
+    weapon1 = @game.choose_weapon1(params[:weapon_type])
+    weapon2 = @game.choose_weapon2(params[:weapon_type])
+    @game.throw(weapon1, weapon2)
     redirect '/play'
   end
 

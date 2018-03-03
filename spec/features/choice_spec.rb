@@ -9,8 +9,18 @@ feature 'while playing the game' do
     expect(page).to have_button 'Scissors'
   end
 
-  scenario 'can choose one option' do
+  scenario 'choose weapon "Rock" and get confirmation' do
     click_button 'Rock'
-    expect(page).to have_content 'Yeah, you Rock!'
+    expect(page).to have_content 'You chose Rock!'
+  end
+
+  scenario 'choose weapon "Scissors" and get confirmation' do
+    click_button 'Scissors'
+    expect(page).to have_content 'You chose Scissors!'
+  end
+
+  scenario 'choose weapon "Paper" and get confirmation' do
+    click_button 'Paper'
+    expect(page).to have_content 'You chose Paper!'
   end
 end

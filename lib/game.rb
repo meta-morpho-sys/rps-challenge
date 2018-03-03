@@ -1,4 +1,4 @@
-require_relative 'player'
+# require_relative 'player'
 
 # Exercises the logic of the game
 class Game

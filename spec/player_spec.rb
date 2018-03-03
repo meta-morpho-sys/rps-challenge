@@ -8,7 +8,7 @@ describe Player do
   end
 
   it 'chooses his weapon' do
-    player.choose_weapon'rock'
+    player.choose_weapon 'rock'
     expect(player.weapon).to be_an_instance_of Weapon
   end
 end
