@@ -11,4 +11,8 @@ class Player
   def choose_weapon(type)
     @weapon = Weapon.new(type)
   end
+
+  def a_computer?
+    @name == 'Computer'
+  end
 end
