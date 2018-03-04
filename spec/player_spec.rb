@@ -16,4 +16,16 @@ describe Player do
     player.choose_weapon 'rock'
     expect(player.weapon).to be_an_instance_of Weapon
   end
+
+  example '#randomise_weapon' do
+    allow_any_instance_of(Array).to receive(:sample).and_return :paper
+    expect(player.randomise_weapon_type).to eq :paper
+  end
+
+  it 'the Computer automatically chooses weapon' do
+    allow_any_instance_of(Array).to receive(:sample).and_return :scissors
+    # allow(player2).to receive(:a_computer?).and_return true
+    # allow(player2).to receive(:choose_weapon).with(:scissors)
+    expect(player2.choose_random_weapon).to eq :scissors
+  end
 end

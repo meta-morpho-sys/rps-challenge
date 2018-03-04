@@ -15,4 +15,12 @@ class Player
   def a_computer?
     @name == 'Computer'
   end
+
+  def choose_random_weapon
+    randomise_weapon_type
+  end
+
+  def randomise_weapon_type
+    %i[rock paper scissors].sample
+  end
 end
