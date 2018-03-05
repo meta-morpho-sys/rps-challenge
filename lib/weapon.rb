@@ -4,6 +4,7 @@
 # Paper beats Rock
 #
 class Weapon
+  ARSENAL = %i[rock paper scissors Spock lizard]
   RULES = { rock: :scissors,
             scissors: :paper,
             paper: :rock }.freeze
@@ -24,5 +25,3 @@ class Weapon
     end
   end
 end
-
-

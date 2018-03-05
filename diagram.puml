@@ -1,23 +1,29 @@
 @startuml
 
 class Player {
-    +weapon
+    +a_computer?()
     +choose_weapon(type)
+    +choose_random_weapon()
 }
 
 class Weapon {
+    ARSENAL
     RULES
     +type
-    +beats?(other)
+    +<=>(other)
 }
 
 class Game {
     +players
+    +result
     +{static} start(player1, player2)
     +{static} instant_access()
     +player1()
     +player2()
-    +result()
+    +choose_weapon1()
+    +choose_weapon2()
+    +choose_random_weapon()
+    +throw(weapon1, weapon2)
 }
 
 Game -> Player :"2" players

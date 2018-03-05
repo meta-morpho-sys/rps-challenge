@@ -6,6 +6,7 @@ class Player
 
   def initialize(name)
     @name = name
+    @weapons = Weapon::ARSENAL
   end
 
   def a_computer?
@@ -17,7 +18,7 @@ class Player
   end
 
   def choose_random_weapon
-    sample_weapon = %i[rock paper scissors].sample
+    sample_weapon = @weapons.sample
     @weapon = Weapon.new(sample_weapon)
   end
 end
