@@ -32,10 +32,24 @@ describe Game do
     expect(game.choose_weapon2(:paper)).to eq paper
   end
 
-  it 'gives the result' do
-    allow(rock).to receive(:<=>).with(scissors).and_return 1
-    game.throw rock, scissors
-    expect(game.result).to eq 1
+  context 'gives the result' do
+    example 'positive' do
+      allow(rock).to receive(:beats?).with(scissors).and_return 1
+      game.throw rock, scissors
+      expect(game.result).to eq 1
+    end
+
+    example 'negative' do
+      allow(rock).to receive(:beats?).with(paper).and_return(-1)
+      game.throw rock, paper
+      expect(game.result).to eq(-1)
+    end
+
+    example 'draw' do
+      allow(rock).to receive(:beats?).with(rock).and_return(0)
+      game.throw rock, rock
+      expect(game.result).to eq(0)
+    end
   end
 
   context 'Playing against the computer' do

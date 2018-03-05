@@ -4,7 +4,7 @@
 # Paper beats Rock
 #
 class Weapon
-  ARSENAL = %i[rock paper scissors Spock lizard]
+  ARSENAL = %i[Rock Paper Scissors]
   RULES = { rock: :scissors,
             scissors: :paper,
             paper: :rock }.freeze
@@ -15,7 +15,7 @@ class Weapon
     @type = type.to_sym
   end
 
-  def <=>(other)
+  def beats?(other)
     if RULES[type] == other.type
       1
     elsif type == other.type

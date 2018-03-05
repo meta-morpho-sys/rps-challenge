@@ -40,6 +40,6 @@ class Game
   end
 
   def throw(weapon1, weapon2)
-    @result = weapon1 <=> weapon2
+    @result = weapon1.beats? weapon2
   end
 end

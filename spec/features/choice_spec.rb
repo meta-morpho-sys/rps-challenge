@@ -4,23 +4,23 @@ feature 'while playing the game' do
   end
 
   scenario 'presented choices of throws Rock, Paper, or Scissors' do
-    expect(page).to have_button 'Rock'
-    expect(page).to have_button 'Paper'
-    expect(page).to have_button 'Scissors'
+    expect(page).to have_button 'rock'
+    expect(page).to have_button 'paper'
+    expect(page).to have_button 'scissors'
   end
 
   scenario 'choose weapon "Rock" and get confirmation' do
-    click_button 'Rock'
-    expect(page).to have_content 'You chose Rock!'
+    click_button 'rock'
+    expect(page).to have_content 'You chose rock!'
   end
 
   scenario 'choose weapon "Scissors" and get confirmation' do
-    click_button 'Scissors'
-    expect(page).to have_content 'You chose Scissors!'
+    click_button 'scissors'
+    expect(page).to have_content 'You chose scissors!'
   end
 
   scenario 'choose weapon "Paper" and get confirmation' do
-    click_button 'Paper'
-    expect(page).to have_content 'You chose Paper!'
+    click_button 'paper'
+    expect(page).to have_content 'You chose paper!'
   end
 end

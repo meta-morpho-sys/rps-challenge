@@ -2,22 +2,22 @@
 
 <div class="title">
   <h1>
-    Welcome, <%= @game.player1.name %> and <%= @game.player2.name %>
+    Welcome, <%= @game.player1.name %>
   </h1>
 </div>
 
 <div class="weapon">
   <h2>Choose your weapon to play!</h2>
   <form action="/play" method="post">
-    <input class="buttonRock" type="submit" name="weapon_type" value="Rock">
+    <input class="buttonRock" type="submit" name="weapon_type" value="rock">
   </form>
 
   <form action="/play" method="post">
-    <input class="buttonPaper" type="submit" name="weapon_type" value="Paper">
+    <input class="buttonPaper" type="submit" name="weapon_type" value="paper">
   </form>
 
   <form action="/play" method="post">
-    <input class="buttonScissors" type="submit" name="weapon_type" value="Scissors">
+    <input class="buttonScissors" type="submit" name="weapon_type" value="scissors">
   </form>
 
 </div>

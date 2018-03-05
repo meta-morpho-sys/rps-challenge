@@ -27,7 +27,11 @@ class RockPaperScissors < Sinatra::Base
 
   post '/play' do
     weapon1 = @game.choose_weapon1(params[:weapon_type])
-    weapon2 = @game.choose_weapon2(params[:weapon_type])
+    weapon2 = if @game.player2.a_computer?
+                @game.choose_random_weapon
+              else
+                @game.choose_weapon2(params[:weapon_type])
+              end
     @game.throw(weapon1, weapon2)
     redirect '/play'
   end
@@ -37,5 +41,5 @@ class RockPaperScissors < Sinatra::Base
   end
 
   # start the server if ruby file executed directly
-  run! if app_file == $0
+  run! if app_file == $PROGRAM_NAME
 end

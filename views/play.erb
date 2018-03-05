@@ -1,1 +1,12 @@
-You chose <%= @game.player2.weapon.type %>!
+You chose <%= @game.player1.weapon.type %>!
+Opponent chose <%= @game.player2.weapon.type %>!
+
+<%= @game %>
+
+<% if @game.result == 1 %>
+  The result is ....... You win!
+  <% elsif @game.result == -1 %>
+  The result is ....... You lose!
+  <% elsif @game.result == 0 %>
+  It's a draw
+<% end %>
