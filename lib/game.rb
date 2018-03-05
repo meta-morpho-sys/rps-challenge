@@ -34,6 +34,11 @@ class Game
     player2.choose_weapon(type)
   end
 
+  # Returns weapon object
+  def choose_random_weapon
+    player2.choose_random_weapon
+  end
+
   def throw(weapon1, weapon2)
     @result = weapon1 <=> weapon2
   end

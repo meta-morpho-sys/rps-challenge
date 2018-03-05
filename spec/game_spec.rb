@@ -2,11 +2,13 @@ require 'game'
 
 describe Game do
   subject(:game) { Game.start(player1, player2) }
+  subject(:computer_vs_human) { Game.start(player1, computer) }
   let(:player1) { double :player, name: 'Bob' }
   let(:player2) { double :player, name: 'Scott' }
+  let(:computer) { double :player, name: 'Computer' }
   let(:rock) { double :weapon, type: 'rock' }
+  let(:paper) { double :weapon, name: 'paper' }
   let(:scissors) { double :weapon, type: 'scissors' }
-
 
   it 'starts with two players' do
     expect(game.players.size).to eq 2
@@ -26,13 +28,20 @@ describe Game do
   end
 
   example '#choose_weapon2' do
-    allow(player2).to receive(:choose_weapon).with(:scissors).and_return scissors
-    expect(game.choose_weapon2(:scissors)).to eq scissors
+    allow(player2).to receive(:choose_weapon).with(:paper).and_return paper
+    expect(game.choose_weapon2(:paper)).to eq paper
   end
 
   it 'gives the result' do
     allow(rock).to receive(:<=>).with(scissors).and_return 1
     game.throw rock, scissors
     expect(game.result).to eq 1
+  end
+
+  context 'Playing against the computer' do
+    example 'the Computer automatically chooses weapon' do
+      allow(computer).to receive(:choose_random_weapon).and_return :paper
+      expect(computer_vs_human.choose_random_weapon).to eq :paper
+    end
   end
 end
