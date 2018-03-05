@@ -2,7 +2,7 @@
 
 # Exercises the logic of the game
 class Game
-  attr_reader :players
+  attr_reader :players, :result
 
   def self.start(player1, player2)
     @game = Game.new(player1, player2)
@@ -35,7 +35,6 @@ class Game
   end
 
   def throw(weapon1, weapon2)
-    weapon1 <=> weapon2
+    @result = weapon1 <=> weapon2
   end
 end
-

@@ -20,18 +20,19 @@ describe Game do
     expect(game.player2).to eq player2
   end
 
-  example '#weapon1' do
+  example '#choose_weapon1' do
     allow(player1).to receive(:choose_weapon).with(:rock).and_return rock
     expect(game.choose_weapon1(:rock)).to eq rock
   end
 
-  example '#weapon2' do
+  example '#choose_weapon2' do
     allow(player2).to receive(:choose_weapon).with(:scissors).and_return scissors
     expect(game.choose_weapon2(:scissors)).to eq scissors
   end
 
-  example 'a winning throw' do
+  it 'gives the result' do
     allow(rock).to receive(:<=>).with(scissors).and_return 1
-    expect(game.throw(rock, scissors)).to eq 1
+    game.throw rock, scissors
+    expect(game.result).to eq 1
   end
 end
