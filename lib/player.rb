@@ -6,11 +6,14 @@ class Player
 
   def initialize(name)
     @name = name
+    @name = 'Computer' if name == ''
     @weapons = Weapon::ARSENAL
   end
 
   def a_computer?
+    # @name ||= 'Computer'
     @name == 'Computer'
+    # @name = 'Computer' if @name == ''
   end
 
   def choose_weapon(type)
