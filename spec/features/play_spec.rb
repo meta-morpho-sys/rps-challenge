@@ -19,4 +19,10 @@ feature 'Playing the game' do
     click_button 'rock'
     expect(page).to have_content "It's a draw"
   end
+
+  scenario 'you can play many times' do
+    register_and_play_vs_computer
+    click_button 'rock'
+    expect(page).to have_link 'Play again'
+  end
 end

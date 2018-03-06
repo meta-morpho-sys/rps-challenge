@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fba2656-e7c4-4d21-97ed-8fa5cdeaf006" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/player.rb" afterPath="$PROJECT_DIR$/lib/player.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/weapon.rb" afterPath="$PROJECT_DIR$/lib/weapon.rb" />
-      <change beforePath="$PROJECT_DIR$/public/rps_style.css" afterPath="$PROJECT_DIR$/public/rps_style.css" />
-      <change beforePath="$PROJECT_DIR$/spec/player_spec.rb" afterPath="$PROJECT_DIR$/spec/player_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/views/choice.erb" afterPath="$PROJECT_DIR$/views/choice.erb" />
-      <change beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
+      <change beforePath="$PROJECT_DIR$/spec/features/play_spec.rb" afterPath="$PROJECT_DIR$/spec/features/play_spec.rb" />
       <change beforePath="$PROJECT_DIR$/views/play.erb" afterPath="$PROJECT_DIR$/views/play.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +28,7 @@
     <SUITE FILE_PATH="coverage/rps_challenge@Game_a_winning_weapon__rps_challenge.coverage" NAME="Game a winning weapon: rps-challenge Coverage Results" MODIFIED="1519989462360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game__weapon2__rps_challenge.coverage" NAME="Game #weapon2: rps-challenge Coverage Results" MODIFIED="1520002390306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_gives_the_result__rps_challenge.coverage" NAME="Game gives the result: rps-challenge Coverage Results" MODIFIED="1520256697976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__player_spec___rps_challenge.coverage" NAME="Run spec 'player_spec': rps-challenge Coverage Results" MODIFIED="1520336622402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__player_spec___rps_challenge.coverage" NAME="Run spec 'player_spec': rps-challenge Coverage Results" MODIFIED="1520337320160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player_has_choice_of_weapons__choose_random_weapon__rps_challenge.coverage" NAME="Player has choice of weapons #choose_random_weapon: rps-challenge Coverage Results" MODIFIED="1520250129455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player_has_choice_of_weapons__choose_random_waepon__rps_challenge.coverage" NAME="Player has choice of weapons #choose_random_waepon: rps-challenge Coverage Results" MODIFIED="1520163939117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_It_s_a_win__rps_challenge.coverage" NAME="RPS It's a win: rps-challenge Coverage Results" MODIFIED="1520256783456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -61,6 +55,7 @@
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_It_s_a_draw__rps_challenge.coverage" NAME="RPS It's a draw: rps-challenge Coverage Results" MODIFIED="1520256851728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_beats_a_weaker_weapon__rps_challenge.coverage" NAME="Weapon beats a weaker weapon: rps-challenge Coverage Results" MODIFIED="1519940847817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_gives_the_result_negative__rps_challenge.coverage" NAME="Game gives the result negative: rps-challenge Coverage Results" MODIFIED="1520256497443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Playing_the_game_you_can_play_many_times__rps_challenge.coverage" NAME="Playing the game you can play many times: rps-challenge Coverage Results" MODIFIED="1520338439563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_win__rps_challenge.coverage" NAME="Weapon win: rps-challenge Coverage Results" MODIFIED="1520255099168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@game.coverage" NAME="game Coverage Results" MODIFIED="1519927774128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_lose_paper_to_scissors__rps_challenge.coverage" NAME="Weapon lose paper to scissors: rps-challenge Coverage Results" MODIFIED="1519944291589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -92,41 +87,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="player.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/player.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="play.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="play.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/play.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="206">
+              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weapon.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/weapon.rb">
+      <file leaf-file-name="choice.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/choice.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="69">
+              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
+      <file leaf-file-name="play_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/play_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="179">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -168,7 +153,6 @@
         <option value="$PROJECT_DIR$/spec/game_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/enter_names_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/choice_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/features/play_spec.rb" />
         <option value="$PROJECT_DIR$/spec/acceptance_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
@@ -177,10 +161,11 @@
         <option value="$PROJECT_DIR$/views/index.erb" />
         <option value="$PROJECT_DIR$/views/choice.erb" />
         <option value="$PROJECT_DIR$/public/rps_style.css" />
-        <option value="$PROJECT_DIR$/views/play.erb" />
-        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
         <option value="$PROJECT_DIR$/lib/player.rb" />
         <option value="$PROJECT_DIR$/lib/weapon.rb" />
+        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/play_spec.rb" />
+        <option value="$PROJECT_DIR$/views/play.erb" />
       </list>
     </option>
   </component>
@@ -246,17 +231,6 @@
             <path>
               <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -292,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'player_spec': rps-challenge">
+  <component name="RunManager" selected="RSpec.Playing the game you can play many times: rps-challenge">
     <configuration name="All specs in rps-challenge: rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rps-challenge" />
@@ -389,7 +363,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Register players name submitting and seeing name: rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Playing the game you can play many times: rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rps-challenge" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -408,10 +382,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/enter_names_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/play_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Register players name submitting and seeing name" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Playing the game you can play many times" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -455,18 +429,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Register players name submitting and seeing name: rps-challenge" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Player knows it is a computer: rps-challenge" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Player the name is set to Computer if no name is chosen: rps-challenge" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Player knows it is a computer: rps-challenge" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Player the name is set to Computer if no name is chosen: rps-challenge" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Playing the game you can play many times: rps-challenge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Player the name is set to Computer if no name is chosen: rps-challenge" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Player knows it is a computer: rps-challenge" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Register players name submitting and seeing name: rps-challenge" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Playing the game you can play many times: rps-challenge" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Player the name is set to Computer if no name is chosen: rps-challenge" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Player knows it is a computer: rps-challenge" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -483,34 +457,19 @@
       <updated>1519404151359</updated>
       <workItem from="1519404152811" duration="35061000" />
       <workItem from="1519852904292" duration="42138000" />
-      <workItem from="1520191604432" duration="17385000" />
+      <workItem from="1520191604432" duration="18671000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 37m 06s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Playing_the_game_you_can_play_many_times__rps-challenge - 2018.03.06 at 13h 06m 26s.xml">
+      <configuration name="Playing the game you can play many times: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 37m 49s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Playing_the_game_you_can_play_many_times__rps-challenge - 2018.03.06 at 13h 11m 51s.xml">
+      <configuration name="Playing the game you can play many times: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 37m 54s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 40m 01s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 40m 05s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 42m 17s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 42m 30s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Player_the_name_is_set_to_Computer_if_no_name_is_chosen__rps-challenge - 2018.03.06 at 12h 42m 36s.xml">
-      <configuration name="Player the name is set to Computer if no name is chosen: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Playing_the_game_you_can_play_many_times__rps-challenge - 2018.03.06 at 13h 14m 00s.xml">
+      <configuration name="Playing the game you can play many times: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 43m 09s.xml">
       <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
@@ -518,9 +477,24 @@
     <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 43m 43s.xml">
       <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 54m 02s.xml">
+      <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 54m 30s.xml">
+      <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 54m 55s.xml">
+      <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 55m 10s.xml">
+      <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'player_spec'__rps-challenge - 2018.03.06 at 12h 55m 20s.xml">
+      <configuration name="Run spec 'player_spec': rps-challenge" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94584000" />
+    <option name="totallyTimeSpent" value="95870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="813" extended-state="6" />
@@ -530,7 +504,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.4914163" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139276" sideWeight="0.5028612" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5139276" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5139276" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -911,14 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/play_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -977,14 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/choice.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/rps_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1003,8 +961,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/weapon.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1017,18 +983,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/play.erb">
+    <entry file="file://$PROJECT_DIR$/spec/features/play_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="179">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/weapon.rb">
+    <entry file="file://$PROJECT_DIR$/views/choice.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="69">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/play.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
