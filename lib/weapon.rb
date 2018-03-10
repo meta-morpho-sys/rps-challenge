@@ -1,4 +1,15 @@
 require 'ruby-enum'
+
+# represents possible outcomes when weapons and players with weapons are
+# compared
+class CompResult
+  include Ruby::Enum
+
+  define :BEATS, 1
+  define :DRAW, 0
+  define :LOSES, -1
+end
+
 # what is a weapon class? It has three types rock, paper and scissors.
 # Rock beats Scissors
 # Scissors beats Paper
@@ -15,14 +26,13 @@ class Weapon
             scissors: :paper,
             paper: :rock }.freeze
 
-
   def self.compare(weapon, other_weapon)
     if RULES[weapon.to_sym] == other_weapon.to_sym
-      1
+      CompResult::BEATS
     elsif weapon == other_weapon
-      0
+      CompResult::DRAW
     else
-      -1
+      CompResult::LOSES
     end
   end
 end
