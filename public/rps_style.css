@@ -1,51 +1,39 @@
 html {
     margin: 0;
-    padding: 10px;
-    height: 100%;
-    width: 100%;
-}
-body {
-    margin: 0;
     padding: 0;
-    font-family: "Source Code Pro", Monaco, monospace;
-    color: steelblue;
-    background-image: radial-gradient(steelblue, blanchedalmond, lavender, indianred);
     height: 100%;
     width: 100%;
 }
 
-div.messages {
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 25px;
+    color: steelblue;
+    background-image: url(cool-cube-wallpaper-2.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+input.registration {
+    margin: 30px;
+    padding: 5%;
+    border: 2px solid steelblue;
+    border-radius: 999px;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 25px;
+    color: steelblue;
+}
+
+.messages {
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
     font-style: normal;
 
-}
-
-.buttonRock {
-    background: url(small_stone.png)  no-repeat;
-    cursor:pointer;
-    width: 130px;
-    height: 100px;
-    border: none;
-    color: rgba(0, 0, 0, 0);
-}
-
-.buttonScissors {
-    background: url(scissors.png)  no-repeat;
-    cursor:pointer;
-    width: 115px;
-    height: 215px;
-    border: none;
-    color: rgba(0, 0, 0, 0);
-}
-
-.buttonPaper{
-    background: url(paper.png)  no-repeat;
-    cursor:pointer;
-    width: 140px;
-    height: 124px;
-    border: none;
-    color: rgba(0, 0, 0, 0);
 }
 
 h1 {
@@ -53,5 +41,79 @@ h1 {
     font-size: 1.8em;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+.chosen_weapons {
+    margin: 100px 100px 100px 300px;
+    height: 50%;
+    display: inline;
+}
+
+img {
+    margin: 10px;
+}
+
+.weapons {
+    margin: auto;
+    width: 70%;
+}
+
+.buttonRock {
+    float: left;
+    margin: 180px 80px 80px 80px ;
+    background: url(rock.png)  no-repeat;
+    cursor:pointer;
+    width: 216px;
+    height: 320px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.buttonScissors {
+    float: left;
+    margin: 80px;
+    background: url(scissors.png)  no-repeat;
+    cursor:pointer;
+    width: 226px;
+    height: 403px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.buttonPaper{
+    float: left;
+    margin: 80px;
+    background: url(paper.png)  no-repeat;
+    cursor:pointer;
+    width: 226px;
+    height: 403px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+
+a:link {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*a:hover {*/
+    /*font-size: large;*/
+    /*color: indianred;*/
+    /*background-color: transparent;*/
+    /*text-decoration: underline;*/
+/*}*/
+
+a:active {
+    color: lavender;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
