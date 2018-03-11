@@ -5,7 +5,7 @@ require 'game'
 describe 'RPS' do
   let(:player1) { Player.new 'Bob' }
   let(:player2) { Player.new 'Ken' }
-  let(:game) { Game.start(player1, player2) }
+  let(:game) { Game.new(player1, player2) }
 
   context 'with two players' do
     example "it's a win" do
@@ -32,7 +32,7 @@ describe 'RPS' do
 
   context 'playing against the computer' do
     let(:computer) { Player.new 'Computer' }
-    let(:computer_vs_human) { Game.start(player1, computer) }
+    let(:computer_vs_human) { Game.new(player1, computer) }
     before do
       allow_any_instance_of(Array).to receive(:sample).and_return 'scissors'
     end
