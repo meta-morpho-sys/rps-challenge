@@ -9,21 +9,21 @@ describe Player do
     expect(player1.name).to eq :'Genghis Khan'
   end
 
-  example 'the name is set to Computer if no name is chosen' do
+  example 'becomes a Computer if no name is chosen' do
     expect(player3.name).to eq 'Computer'
   end
 
-  it 'knows it is a computer' do
+  it 'knows it is a Computer' do
     expect(player2.a_computer?).to eq true
   end
 
-  describe 'has choice of weapons' do
-    example 'actively' do
+  describe 'gets weapons' do
+    example 'actively, when it is a user' do
       player1.weapon = 'rock'
       expect(player1.weapon).to eq 'rock'
     end
 
-    example 'randomly' do
+    example 'randomly, when it is a Computer' do
       allow_any_instance_of(Array).to receive(:sample).and_return 'paper'
       player1.weapon = Weapon.random
       expect(player1.weapon).to eq 'paper'

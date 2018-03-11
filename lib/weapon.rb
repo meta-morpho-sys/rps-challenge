@@ -1,7 +1,7 @@
 require 'ruby-enum'
 
-# represents possible outcomes when weapons and players with weapons are
-# compared
+# represents the outcomes for comparison between weapons and
+# subsequently between players.
 class CompResult
   include Ruby::Enum
 
