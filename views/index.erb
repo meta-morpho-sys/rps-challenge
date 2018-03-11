@@ -5,16 +5,16 @@
   <h1>Game</h1>
 </div>
 
-<div class="registration_form">
+<div>
   <h2>Enter your name to play</h2>
   <form action="/start_game" method="post">
     <label for="player_1_name">
-    Player 1
-      <input type="text" name="player_1_name">
+      Player 1
+      <input class="registration" type="text" name="player_1_name" required="required">
     </label>
     <label for="player_2_name">
-      <input type="hidden" size="36" placeholder="Leave blank to play against computer" name="player_2_name">
+      <input class="registration" id="player2" type="hidden" size="36" placeholder="Leave blank to play against computer" name="player_2_name">
     </label>
-    <input type="submit" value="Play">
+    <input class="registration" type="submit" value="Play">
   </form>
 </div>
