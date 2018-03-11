@@ -18,14 +18,15 @@ describe Player do
   end
 
   describe 'has choice of weapons' do
-    it 'Player chooses his weapon' do
-      player1.choose_weapon 'rock'
-      expect(player1.weapon).to be_an_instance_of Weapon
+    example 'actively' do
+      player1.weapon = 'rock'
+      expect(player1.weapon).to eq 'rock'
     end
 
-    example '#choose_random_weapon' do
-      allow_any_instance_of(Array).to receive(:sample).and_return :paper
-      expect(player1.choose_random_weapon.type).to eq :paper
+    example 'randomly' do
+      allow_any_instance_of(Array).to receive(:sample).and_return 'paper'
+      player1.weapon = Weapon.random
+      expect(player1.weapon).to eq 'paper'
     end
   end
 end
