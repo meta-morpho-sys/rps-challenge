@@ -1,20 +1,28 @@
 @startuml
 
 class Player {
+    +name
+    +weapon=
     +a_computer?()
-    +choose_weapon(type)
-    +choose_random_weapon()
 }
 
-class Weapon {
-    ARSENAL
-    RULES
-    +type
-    +<=>(other)
+enum CompResult {
+    BEATS
+    DRAW
+    LOSES
+}
+
+enum Weapon {
+    ROCK
+    PAPER
+    SCISSORS
+
+    RULES {}
+    +{static} compare(weapon, other_weapon)
+    +{static} random()
 }
 
 class Game {
-    +players
     +result
     +{static} start(player1, player2)
     +{static} instant_access()
@@ -26,7 +34,7 @@ class Game {
     +throw(weapon1, weapon2)
 }
 
-Game -> Player :"2" players
+Game -> Player : +players[2]
 Player -> Weapon : weapons
 
 @enduml
