@@ -24,22 +24,7 @@ class Game
     @players.last
   end
 
-  # Returns weapon object
-  def choose_weapon1(type)
-    player1.choose_weapon(type)
-  end
-
-  # Returns weapon object
-  def choose_weapon2(type)
-    player2.choose_weapon(type)
-  end
-
-  # Returns weapon object
-  def choose_random_weapon
-    player2.choose_random_weapon
-  end
-
-  def throw(weapon1, weapon2)
-    @result = weapon1.beats? weapon2
+  def throw
+    @result = Weapon.compare(player1.weapon, player2.weapon)
   end
 end
