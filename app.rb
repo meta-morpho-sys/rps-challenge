@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require './lib/game'
 require './lib/player'
+# require './lib/weapon'
 
 # controller
 class RockPaperScissors < Sinatra::Base
@@ -15,9 +16,7 @@ class RockPaperScissors < Sinatra::Base
   end
 
   post '/start_game' do
-    player1 = Player.new(params[:player_1_name])
-    player2 = Player.new(params[:player_2_name])
-    @game = Game.start(player1, player2)
+    @game = Game.start params[:player_1_name], params[:player_2_name]
     redirect '/choice'
   end
 
@@ -26,13 +25,13 @@ class RockPaperScissors < Sinatra::Base
   end
 
   post '/play' do
-    weapon1 = @game.choose_weapon1(params[:weapon_type])
-    weapon2 = if @game.player2.a_computer?
-                @game.choose_random_weapon
-              else
-                @game.choose_weapon2(params[:weapon_type])
-              end
-    @game.throw(weapon1, weapon2)
+    p1 = @game.player1
+    p2 = @game.player2
+    weapon1 = params[:weapon_type]
+    weapon2 = p2.a_computer? ? Weapon.random : params[:weapon_type]
+    p1.weapon = weapon1
+    p2.weapon = weapon2
+    @game.throw
     redirect '/play'
   end
 

@@ -4,7 +4,9 @@
 class Game
   attr_reader :players, :result
 
-  def self.start(player1, player2)
+  def self.start(player1_name, player2_name)
+    player1 = Player.new player1_name
+    player2 = Player.new player2_name
     @game = Game.new(player1, player2)
   end
 
