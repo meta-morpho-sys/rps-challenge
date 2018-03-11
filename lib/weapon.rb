@@ -35,4 +35,8 @@ class Weapon
       CompResult::LOSES
     end
   end
+
+  def self.random
+    values.sample
+  end
 end

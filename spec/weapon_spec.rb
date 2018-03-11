@@ -1,6 +1,5 @@
 require 'weapon'
 
-
 describe Weapon do
   let(:rock) { Weapon::ROCK }
   let(:scissors) { Weapon::SCISSORS }
@@ -22,5 +21,10 @@ describe Weapon do
     expect(Weapon.compare(scissors, scissors)).to eq 0
     expect(Weapon.compare(paper, paper)).to eq 0
     expect(Weapon.compare(rock, rock)).to eq 0
+  end
+
+  example 'random weapon' do
+    allow_any_instance_of(Array).to receive(:sample).and_return 'rock'
+    expect(Weapon.random).to eq 'rock'
   end
 end
