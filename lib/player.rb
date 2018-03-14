@@ -1,6 +1,6 @@
 require_relative 'weapon'
 
-# represents the player
+# represents the player and tracks points
 class Player
   DEFAULT_POINTS = 0
 
@@ -17,7 +17,7 @@ class Player
     @name == 'Computer'
   end
 
-  def gain(score)
-    @points += score
+  def gain(points)
+    @points += points
   end
 end

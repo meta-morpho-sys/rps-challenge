@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2fba2656-e7c4-4d21-97ed-8fa5cdeaf006" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/new_rps_style.css" afterPath="$PROJECT_DIR$/public/new_rps_style.css" />
-      <change beforePath="$PROJECT_DIR$/public/rps_style.css" afterPath="$PROJECT_DIR$/public/rps_style.css" />
-      <change beforePath="$PROJECT_DIR$/views/choice.erb" afterPath="$PROJECT_DIR$/views/choice.erb" />
+      <change beforePath="$PROJECT_DIR$/diagram.puml" afterPath="$PROJECT_DIR$/diagram.puml" />
+      <change beforePath="$PROJECT_DIR$/lib/game.rb" afterPath="$PROJECT_DIR$/lib/game.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/player.rb" afterPath="$PROJECT_DIR$/lib/player.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/game_spec.rb" afterPath="$PROJECT_DIR$/spec/game_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +32,8 @@
     <SUITE FILE_PATH="coverage/rps_challenge@Game_a_winning_weapon__rps_challenge.coverage" NAME="Game a winning weapon: rps-challenge Coverage Results" MODIFIED="1519989462360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game__weapon2__rps_challenge.coverage" NAME="Game #weapon2: rps-challenge Coverage Results" MODIFIED="1520002390306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_gives_the_result__rps_challenge.coverage" NAME="Game gives the result: rps-challenge Coverage Results" MODIFIED="1520777307724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__player_spec___rps_challenge.coverage" NAME="Run spec 'player_spec': rps-challenge Coverage Results" MODIFIED="1520774146584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__player_spec___rps_challenge.coverage" NAME="Run spec 'player_spec': rps-challenge Coverage Results" MODIFIED="1521059812308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Game_game_over__returns_false_if_no_one_of_the_players_is_at_30_points__rps_challenge.coverage" NAME="Game#game_over? returns false if no-one of the players is at 30 points: rps-challenge Coverage Results" MODIFIED="1521061212947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player_has_choice_of_weapons__choose_random_weapon__rps_challenge.coverage" NAME="Player has choice of weapons #choose_random_weapon: rps-challenge Coverage Results" MODIFIED="1520250129455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player_has_choice_of_weapons__choose_random_waepon__rps_challenge.coverage" NAME="Player has choice of weapons #choose_random_waepon: rps-challenge Coverage Results" MODIFIED="1520163939117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_It_s_a_win__rps_challenge.coverage" NAME="RPS It's a win: rps-challenge Coverage Results" MODIFIED="1520256783456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -42,12 +44,14 @@
     <SUITE FILE_PATH="coverage/rps_challenge@Player__randomise_weapon__rps_challenge.coverage" NAME="Player #randomise_weapon: rps-challenge Coverage Results" MODIFIED="1520162972968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Player__rps_challenge.coverage" NAME="Player: rps-challenge Coverage Results" MODIFIED="1520774604555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_makes_a__throw__rps_challenge.coverage" NAME="Game makes a #throw: rps-challenge Coverage Results" MODIFIED="1520192581688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Game_game_over___loser__rps_challenge.coverage" NAME="Game#game_over? #loser: rps-challenge Coverage Results" MODIFIED="1521060734698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__choice_spec___rps_challenge.coverage" NAME="Run spec 'choice_spec': rps-challenge Coverage Results" MODIFIED="1519756780486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Game_game_over__returns_true_if_one_of_the_players_is_at_30_points__rps_challenge.coverage" NAME="Game#game_over? returns true if one of the players is at 30 points: rps-challenge Coverage Results" MODIFIED="1521059710715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_Playing_against_the_computer_the_Computer_automatically_chooses_weapon__rps_challenge.coverage" NAME="Game Playing against the computer the Computer automatically chooses weapon: rps-challenge Coverage Results" MODIFIED="1520193689334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@weapon.coverage" NAME="weapon Coverage Results" MODIFIED="1520687741270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_lose__rps_challenge.coverage" NAME="Weapon lose: rps-challenge Coverage Results" MODIFIED="1520701018773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_Playing_against_the_computer_Computer_plays_automatically_against_player_1_and_wins__rps_challenge.coverage" NAME="RPS Playing against the computer Computer plays automatically against player 1 and wins: rps-challenge Coverage Results" MODIFIED="1520779418607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__game_spec___rps_challenge.coverage" NAME="Run spec 'game_spec': rps-challenge Coverage Results" MODIFIED="1520779656926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__game_spec___rps_challenge.coverage" NAME="Run spec 'game_spec': rps-challenge Coverage Results" MODIFIED="1521059726290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_can_choose_one_option__rps_challenge.coverage" NAME="while playing the game can choose one option: rps-challenge Coverage Results" MODIFIED="1519755556895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_gives_the_result_positive__rps_challenge.coverage" NAME="Game gives the result positive: rps-challenge Coverage Results" MODIFIED="1520776263568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_Playing_against_the_computer__randomise_weapon__rps_challenge.coverage" NAME="Game Playing against the computer #randomise_weapon: rps-challenge Coverage Results" MODIFIED="1520160146188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -57,8 +61,9 @@
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_players_choose_their_weapons_and_win_a_throw__rps_challenge.coverage" NAME="RPS players choose their weapons and win a throw: rps-challenge Coverage Results" MODIFIED="1520002949679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_lose_scissors_to_rock__rps_challenge.coverage" NAME="Weapon lose scissors to rock: rps-challenge Coverage Results" MODIFIED="1519987788599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_Playing_against_the_computer_the_Computer_automatically_chooses_its_weapon__rps_challenge.coverage" NAME="Game Playing against the computer the Computer automatically chooses its weapon: rps-challenge Coverage Results" MODIFIED="1520081759044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
-    <SUITE FILE_PATH="coverage/rps_challenge@All_specs_in_rps_challenge__rps_challenge.coverage" NAME="All specs in rps-challenge: rps-challenge Coverage Results" MODIFIED="1520796444625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@All_specs_in_rps_challenge__rps_challenge.coverage" NAME="All specs in rps-challenge: rps-challenge Coverage Results" MODIFIED="1521059999641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_It_s_a_draw__rps_challenge.coverage" NAME="RPS It's a draw: rps-challenge Coverage Results" MODIFIED="1520256851728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Player_points__gain_points__rps_challenge.coverage" NAME="Player points #gain_points: rps-challenge Coverage Results" MODIFIED="1521058406191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Weapon_beats_a_weaker_weapon__rps_challenge.coverage" NAME="Weapon beats a weaker weapon: rps-challenge Coverage Results" MODIFIED="1519940847817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Playing_the_game_you_can_play_many_times__rps_challenge.coverage" NAME="Playing the game you can play many times: rps-challenge Coverage Results" MODIFIED="1520338439563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game_gives_the_result_negative__rps_challenge.coverage" NAME="Game gives the result negative: rps-challenge Coverage Results" MODIFIED="1520776966770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -70,6 +75,7 @@
     <SUITE FILE_PATH="coverage/rps_challenge@RPS__rps_challenge.coverage" NAME="RPS: rps-challenge Coverage Results" MODIFIED="1520779586644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@RPS_players_choose_their_weapons_and_lose_a_throw__rps_challenge.coverage" NAME="RPS players choose their weapons and lose a throw: rps-challenge Coverage Results" MODIFIED="1520002616295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Run_spec__acceptance_spec___rps_challenge.coverage" NAME="Run spec 'acceptance_spec': rps-challenge Coverage Results" MODIFIED="1520775604360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
+    <SUITE FILE_PATH="coverage/rps_challenge@Player_points_starting_points__rps_challenge.coverage" NAME="Player points starting points: rps-challenge Coverage Results" MODIFIED="1521057283303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Playing_the_game_chose_weapon__Rock__and_get_confirmation__rps_challenge.coverage" NAME="Playing the game chose weapon &quot;Rock&quot; and get confirmation: rps-challenge Coverage Results" MODIFIED="1520001050728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@while_playing_the_game_choose_weapon__Rock__and_get_confirmation__rps_challenge.coverage" NAME="while playing the game choose weapon &quot;Rock&quot; and get confirmation: rps-challenge Coverage Results" MODIFIED="1520003208126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
     <SUITE FILE_PATH="coverage/rps_challenge@Game__player2__rps_challenge.coverage" NAME="Game #player2: rps-challenge Coverage Results" MODIFIED="1520777274543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rps-challenge" />
@@ -98,51 +104,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_rps_style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/new_rps_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2013">
-              <caret line="142" column="20" lean-forward="true" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="play.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/play.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="choice.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/choice.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="-107">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/player.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+              <folding>
+                <element signature="e#386#432#0" expanded="false" />
+                <element signature="e#455#498#0" expanded="false" />
+                <element signature="e#521#566#0" expanded="false" />
+                <element signature="e#1356#1817#0" expanded="false" />
+                <element signature="e#2015#2179#0" expanded="false" />
+                <element signature="e#2243#2426#0" expanded="false" />
+                <element signature="e#2504#2629#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diagram.puml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diagram.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-129">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -164,8 +188,8 @@
       <find>beats?</find>
       <find>color</find>
       <find>flexbox</find>
-      <find>size</find>
       <find>Container</find>
+      <find>size</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;=&gt;</replace>
@@ -189,13 +213,8 @@
         <option value="$PROJECT_DIR$/Gemkile.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/custom_matchers.rb" />
-        <option value="$PROJECT_DIR$/lib/player.rb" />
         <option value="$PROJECT_DIR$/spec/weapon_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
         <option value="$PROJECT_DIR$/lib/weapon.rb" />
-        <option value="$PROJECT_DIR$/diagram.puml" />
-        <option value="$PROJECT_DIR$/lib/game.rb" />
-        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
         <option value="$PROJECT_DIR$/spec/acceptance_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/play_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/web_helpers.rb" />
@@ -212,6 +231,11 @@
         <option value="$PROJECT_DIR$/views/choice.erb" />
         <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/public/new_rps_style.css" />
+        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/player.rb" />
+        <option value="$PROJECT_DIR$/lib/game.rb" />
+        <option value="$PROJECT_DIR$/diagram.puml" />
+        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
       </list>
     </option>
   </component>
@@ -222,8 +246,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="33" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -282,12 +305,6 @@
             <path>
               <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rps-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rps-challenge" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -329,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="RSpec.All specs in rps-challenge: rps-challenge">
     <configuration name="All specs in rps-challenge: rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rps-challenge" />
@@ -362,9 +379,80 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
+    <configuration name="Run spec 'game_spec': rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="rps-challenge" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Run spec 'player_spec': rps-challenge" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="rps-challenge" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/player_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': rps-challenge" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in rps-challenge: rps-challenge" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'player_spec': rps-challenge" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'game_spec': rps-challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -382,56 +470,56 @@
       <workItem from="1519404152811" duration="35061000" />
       <workItem from="1519852904292" duration="42138000" />
       <workItem from="1520191604432" duration="32873000" />
-      <workItem from="1520508757032" duration="41525000" />
+      <workItem from="1520508757032" duration="46277000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 19m 55s.xml">
+    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.14 at 20h 40m 01s.xml">
       <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 20m 30s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__#loser__rps-challenge - 2018.03.14 at 20h 48m 08s.xml">
+      <configuration name="Game#game_over? #loser: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 21m 09s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__#loser__rps-challenge - 2018.03.14 at 20h 48m 21s.xml">
+      <configuration name="Game#game_over? #loser: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 22m 15s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__#loser__rps-challenge - 2018.03.14 at 20h 49m 27s.xml">
+      <configuration name="Game#game_over? #loser: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 22m 51s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__#loser__rps-challenge - 2018.03.14 at 20h 49m 49s.xml">
+      <configuration name="Game#game_over? #loser: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 23m 06s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__#loser__rps-challenge - 2018.03.14 at 20h 52m 16s.xml">
+      <configuration name="Game#game_over? #loser: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 24m 41s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__returns_false_if_no-one_of_the_players_is_at_30_points__rps-challenge - 2018.03.14 at 20h 55m 45s.xml">
+      <configuration name="Game#game_over? returns false if no-one of the players is at 30 points: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 26m 47s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__returns_false_if_no-one_of_the_players_is_at_30_points__rps-challenge - 2018.03.14 at 20h 59m 12s.xml">
+      <configuration name="Game#game_over? returns false if no-one of the players is at 30 points: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 26m 57s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__returns_false_if_no-one_of_the_players_is_at_30_points__rps-challenge - 2018.03.14 at 20h 59m 34s.xml">
+      <configuration name="Game#game_over? returns false if no-one of the players is at 30 points: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_rps-challenge__rps-challenge - 2018.03.11 at 19h 27m 27s.xml">
-      <configuration name="All specs in rps-challenge: rps-challenge" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Game#game_over__returns_false_if_no-one_of_the_players_is_at_30_points__rps-challenge - 2018.03.14 at 21h 00m 14s.xml">
+      <configuration name="Game#game_over? returns false if no-one of the players is at 30 points: rps-challenge" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151597000" />
+    <option name="totallyTimeSpent" value="156349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="33" width="1440" height="813" extended-state="0" />
+    <frame x="0" y="24" width="1440" height="813" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45422032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139276" sideWeight="0.50572246" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139276" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5139276" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881259" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -695,54 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diagram.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/player.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="e#270#316#0" expanded="false" />
-            <element signature="e#339#382#0" expanded="false" />
-            <element signature="e#405#450#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/acceptance_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -830,22 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/play.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/choice_flex.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -862,10 +890,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
+    <entry file="file://$PROJECT_DIR$/views/choice.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="278">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/play.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -878,11 +914,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/choice.erb">
+    <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagram.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="81" column="8" lean-forward="false" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="e#386#432#0" expanded="false" />
+            <element signature="e#455#498#0" expanded="false" />
+            <element signature="e#521#566#0" expanded="false" />
+            <element signature="e#1356#1817#0" expanded="false" />
+            <element signature="e#2015#2179#0" expanded="false" />
+            <element signature="e#2243#2426#0" expanded="false" />
+            <element signature="e#2504#2629#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

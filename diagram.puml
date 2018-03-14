@@ -3,7 +3,9 @@
 class Player {
     +name
     +weapon=
+    +points
     +a_computer?()
+    +gain(points)
 }
 
 enum CompResult {
@@ -18,6 +20,7 @@ enum Weapon {
     SCISSORS
 
     RULES {}
+
     +{static} compare(weapon, other_weapon)
     +{static} random()
 }
@@ -28,10 +31,9 @@ class Game {
     +{static} instant_access()
     +player1()
     +player2()
-    +choose_weapon1()
-    +choose_weapon2()
-    +choose_random_weapon()
-    +throw(weapon1, weapon2)
+    +game_over?()
+    +winner()
+    -winning_players()
 }
 
 Game -> Player : +players[2]

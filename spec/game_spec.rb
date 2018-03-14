@@ -2,10 +2,8 @@ require 'game'
 
 describe Game do
   subject(:game) { Game.new(bob, scott) }
-  subject(:finished_game) { Game.new(winning_player, scott) }
-  let(:winning_player) { double :Victor, points: 30 }
   let(:bob) { double :Bob }
-  let(:scott) { double :Scott }
+  let(:scott) { double :Scott, points: 10 }
   let(:rock) { double 'rock' }
   let(:paper) { double 'paper' }
   let(:scissors) { double 'scissors' }
@@ -61,17 +59,26 @@ describe Game do
     end
   end
 
-  describe '#game_over?' do
-    it 'returns false if no-one of the players is at 30 points' do
-      allow(winning_player).to receive(:points).and_return 25
-      allow(scott).to receive(:points).and_return 10
-      expect(finished_game.game_over?).to eq false
+  context 'The end of the game' do
+    subject(:finished_game) { Game.new(winning_player, other_player) }
+    let(:winning_player) { double :Victor, points: 30 }
+    let(:other_player) {double :Dave, points: 10 }
+
+    describe '#game_over?' do
+      it 'returns false if no-one of the players is at 30 points' do
+        allow(bob).to receive(:points).and_return 25
+        expect(game.game_over?).to eq false
+      end
+
+      it 'returns true if one of the players is at 30 points' do
+        expect(finished_game.game_over?).to eq true
+      end
     end
 
-    it 'returns true if one of the players is at 30 points' do
-      allow(winning_player).to receive(:points).and_return 30
-      allow(scott).to receive(:points).and_return 10
-      expect(finished_game.game_over?).to eq true
+    describe '#loser' do
+      it 'returns the player on 30 points' do
+        expect(finished_game.winner).to eq winning_player
+      end
     end
   end
 end

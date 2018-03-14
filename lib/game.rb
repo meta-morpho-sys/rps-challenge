@@ -31,12 +31,16 @@ class Game
   end
 
   def game_over?
-    losing_players.any?
+    winning_players.any?
+  end
+
+  def winner
+    winning_players.first
   end
 
   private
 
-  def losing_players
+  def winning_players
     @players.select { |player| player.points >= 30 }
   end
 end
