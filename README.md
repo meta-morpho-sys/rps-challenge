@@ -1,29 +1,34 @@
 # RPS Challenge
 
+Before starting the app run 
+`bundle install`
+to make sure all dependencies are available.
 
-```sh
-As a player
-So that I can see my name in lights
-I would like to register my name before playing an online game
+To start the app run 
+`rackup`
+from the command line, from within the directory of the app.
 
-As a player
-So that I can enjoy myself away from the daily grind
-I would like to be able to play rock/paper/scissors
-```
+This app runs only on localhost. Sinatra will start up a server on port 9292.
 
-Hints on functionality
+### Functionality
 
-- the player should be able to enter their name before the game
-- the player will be presented the choices (rock, paper and scissors)
+- the player can enter their name before the game
+- the player is presented the choices (rock, paper and scissors)
 - the player can choose one option
-- the game will choose a random option
-- a winner will be declared
+- the game can choose a random option
+- a winner is declared
 
-## Basic Rules
+### Basic Rules
 
 - Rock beats Scissors
 - Scissors beats Paper
 - Paper beats Rock
+
+
+### Technology used
+- RSpec
+- Ruby-Enum gem
+
 
 
 ![Start](readme_images/RPS1.png)
