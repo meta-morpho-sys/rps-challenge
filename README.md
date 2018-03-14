@@ -24,3 +24,10 @@ Hints on functionality
 - Rock beats Scissors
 - Scissors beats Paper
 - Paper beats Rock
+
+
+![Start](readme_images/RPS1.png)
+![Enter name](readme_images/RPS2.png)
+![Choose weapon](readme_images/RPS3.png)
+![The winner is....](readme_images/RPS4.png)
+
