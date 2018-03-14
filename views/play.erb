@@ -1,45 +1,53 @@
-<link rel="stylesheet" type="text/css" href="/rps_style.css">
+<!DOCTYPE html>
 
-<div class="messages">
-  <h2>
-    You chose <%= @game.player1.weapon %>!
-    <%= @game.player2.name %> chose <%= @game.player2.weapon %>!
-  </h2>
+<html>
 
-  <div class="weapons">
-    <div class="player1">
-      <% if @game.player1.weapon == :rock %>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="/new_rps_style.css">
+  <title>Play</title>
+</head>
+
+<div class="container">
+  <header>
+    <h2>
+      You chose <%= @game.player1.weapon %>!
+      <%= @game.player2.name %> chose <%= @game.player2.weapon %>!
+    </h2>
+  </header>
+
+  <div class="content">
+    <div class="chosen_weapons">
+      <% if @game.player1.weapon == 'rock' %>
         <img src="/rock.png">
-      <% elsif @game.player1.weapon == :paper %>
+      <% elsif @game.player1.weapon == 'paper' %>
         <img src="/paper.png">
-      <% elsif @game.player1.weapon == :scissors %>
+      <% elsif @game.player1.weapon == 'scissors' %>
+        <img src="/scissors.png">
+      <% end %>
+
+      <% if @game.player2.weapon == 'rock' %>
+        <img src="/rock.png">
+      <% elsif @game.player2.weapon == 'paper' %>
+        <img src="/paper.png">
+      <% elsif @game.player2.weapon == 'scissors' %>
         <img src="/scissors.png">
       <% end %>
     </div>
-
-    <div class="player2">
-      <% if @game.player2.weapon == :rock %>
-        <img src="/rock.png">
-      <% elsif @game.player2.weapon == :paper %>
-        <img src="/paper.png">
-      <% elsif @game.player2.weapon == :scissors %>
-        <img src="/scissors.png">
+    <h2>
+      <% if @game.result == 1 %>
+        The result is ....... You win!
+        <% elsif @game.result == -1 %>
+        The result is ....... You lose!
+        <% elsif @game.result == 0 %>
+        It's a draw
       <% end %>
-    </div>
+    </h2>
   </div>
-
-  <h2>
-    <% if @game.result == 1 %>
-      The result is ....... You win!
-      <% elsif @game.result == -1 %>
-      The result is ....... You lose!
-      <% elsif @game.result == 0 %>
-      It's a draw
-    <% end %>
-  </h2>
 </div>
 
-<div class="forwarding">
+<footer>
   <a href="choice">Play again</a>
-</div>
-
+</footer>
+</html>

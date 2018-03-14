@@ -1,20 +1,37 @@
-<link rel="stylesheet" type="text/css" href="/rps_style.css">
+<!DOCTYPE html>
 
-<div class="title">
-  <h1>Rock Paper Scissors</h1>
-  <h1>Game</h1>
-</div>
+<html>
 
-<div>
-  <h2>Enter your name to play</h2>
-  <form action="/start_game" method="post">
-    <label for="player_1_name">
-      Player 1
-      <input class="registration" type="text" name="player_1_name" required="required">
-    </label>
-    <label for="player_2_name">
-      <input class="registration" id="player2" type="hidden" size="36" placeholder="Leave blank to play against computer" name="player_2_name">
-    </label>
-    <input class="registration" type="submit" value="Play">
-  </form>
-</div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="/new_rps_style.css">
+  <title>Choice</title>
+
+</head>
+
+  <div class="container">
+
+    <div class="content">
+
+    <h1>Rock Paper Scissors</h1>
+    <h1>Game</h1>
+    <h2>Enter your name to play</h2>
+
+    <form action="/start_game" method="post">
+      <label for="player_1_name">
+        <input class="registration" type="text" name="player_1_name" required="required" placeholder="Player name">
+      </label>
+      <label for="player_2_name">
+        <input class="registration" id="player2" type="hidden" size="36" placeholder="Leave blank to play against computer" name="player_2_name">
+      </label>
+      <input class="registration" type="submit" value="Play">
+    </form>
+
+    </div>
+
+  </div>
+
+</html>
+
+
