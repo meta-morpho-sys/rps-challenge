@@ -29,4 +29,14 @@ class Game
   def throw
     @result = Weapon.compare(player1.weapon, player2.weapon)
   end
+
+  def game_over?
+    losing_players.any?
+  end
+
+  private
+
+  def losing_players
+    @players.select { |player| player.points >= 30 }
+  end
 end

@@ -2,6 +2,8 @@ require 'game'
 
 describe Game do
   subject(:game) { Game.new(bob, scott) }
+  subject(:finished_game) { Game.new(winning_player, scott) }
+  let(:winning_player) { double :Victor, points: 30 }
   let(:bob) { double :Bob }
   let(:scott) { double :Scott }
   let(:rock) { double 'rock' }
@@ -56,6 +58,20 @@ describe Game do
       allow(Weapon).to receive(:compare).with(scissors, paper).and_return 1
       computer_vs_human.throw
       expect(computer_vs_human.throw).to eq 1
+    end
+  end
+
+  describe '#game_over?' do
+    it 'returns false if no-one of the players is at 30 points' do
+      allow(winning_player).to receive(:points).and_return 25
+      allow(scott).to receive(:points).and_return 10
+      expect(finished_game.game_over?).to eq false
+    end
+
+    it 'returns true if one of the players is at 30 points' do
+      allow(winning_player).to receive(:points).and_return 30
+      allow(scott).to receive(:points).and_return 10
+      expect(finished_game.game_over?).to eq true
     end
   end
 end
