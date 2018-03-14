@@ -18,6 +18,41 @@ body, html {
     margin: auto;
 }
 
+.balance_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.balance_container input[value="rock"] {
+    background: url(rock.png)  no-repeat;
+    margin-top: 90px;
+    cursor:pointer;
+    width: 216px;
+    height: 320px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.balance_container input[value="paper"] {
+    background: url(paper.png)  no-repeat;
+    cursor:pointer;
+    width: 230px;
+    height: 403px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+.balance_container input[value="scissors"] {
+    background: url(scissors.png)  no-repeat;
+    width: 230px;
+    cursor:pointer;
+    height: 403px;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+}
+
 header {
     text-align: center;
     margin: auto;
@@ -135,3 +170,4 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
