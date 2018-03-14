@@ -29,4 +29,15 @@ describe Player do
       expect(player1.weapon).to eq 'paper'
     end
   end
+
+  describe 'points' do
+    example 'starting points' do
+      expect(player1.points).to eq Player::DEFAULT_POINTS
+    end
+
+    it '#gain_points' do
+      player1.gain(10)
+      expect(player1.points).to eq 10
+    end
+  end
 end
