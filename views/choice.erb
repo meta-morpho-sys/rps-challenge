@@ -14,7 +14,16 @@
     <span> Welcome, <%= @game.player1.name %>!</span>
   </header>
 
-  <div class="content">
+  <div class="col-1">
+    <p> <%= @game.player1.name %></p>
+    <p>  <%= @game.player1.points %> points</p>
+  </div>
+  <div class="col-1">
+    <p> <%= @game.player2.name %></p>
+    <p>  <%= @game.player2.points %> points</p>
+  </div>
+
+  <div class="col-12">
     <h2> You are playing against  <%= @game.player2.name %></h2>
     <h2>Choose your weapon to play!</h2>
 
@@ -32,7 +41,6 @@
       </form>
     </div>
   </div>
-
 </div>
 
 </html>
