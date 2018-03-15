@@ -1,7 +1,6 @@
 require 'sinatra/base'
 require './lib/game'
 require './lib/player'
-# require './lib/weapon'
 
 # controller
 class RockPaperScissors < Sinatra::Base
@@ -32,11 +31,16 @@ class RockPaperScissors < Sinatra::Base
     p1.weapon = weapon1
     p2.weapon = weapon2
     @game.throw
+    redirect '/game_over' if @game.game_over?
     redirect '/play'
   end
 
   get '/play' do
     erb :play
+  end
+
+  get '/game_over' do
+    erb :game_over
   end
 
   # start the server if ruby file executed directly
