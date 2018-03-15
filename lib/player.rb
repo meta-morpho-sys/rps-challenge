@@ -17,7 +17,7 @@ class Player
     @name == 'Computer'
   end
 
-  def gain(points)
+  def update(points)
     @points += points
   end
 end

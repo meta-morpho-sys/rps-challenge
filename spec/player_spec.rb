@@ -36,7 +36,7 @@ describe Player do
     end
 
     it '#gain_points' do
-      player1.gain(10)
+      player1.update(10)
       expect(player1.points).to eq 10
     end
   end
