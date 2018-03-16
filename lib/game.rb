@@ -28,6 +28,17 @@ class Game
 
   def throw
     @result = Weapon.compare(player1.weapon, player2.weapon)
+    p @result
+    update_players_points
+  end
+
+  def update_players_points
+    @result == 1 ? player1.update : player2.update
+    # if @result == 1
+    #   player1.update
+    # elsif @result == -1
+    #   player2.update
+    # end
   end
 
   def game_over?

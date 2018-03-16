@@ -1,11 +1,13 @@
 @startuml
 
 class Player {
+    DEFAULT_POINTS
+    SCORE
     +name
-    +weapon=
     +points
+    +weapon=
     +a_computer?()
-    +gain(points)
+    +update
 }
 
 enum CompResult {
@@ -31,6 +33,7 @@ class Game {
     +{static} instant_access()
     +player1()
     +player2()
+    +update_players_points()
     +game_over?()
     +winner()
     -winning_players()

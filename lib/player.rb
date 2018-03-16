@@ -3,6 +3,7 @@ require_relative 'weapon'
 # represents the player and tracks points
 class Player
   DEFAULT_POINTS = 0
+  SCORE = 5
 
   attr_reader :name, :points
   attr_accessor :weapon
@@ -17,7 +18,7 @@ class Player
     @name == 'Computer'
   end
 
-  def update(points)
-    @points += points
+  def update
+    @points += SCORE
   end
 end

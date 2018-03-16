@@ -21,7 +21,11 @@ describe Game do
   end
 
   context 'gives the result' do
-    before { allow(bob).to receive(:weapon).and_return rock }
+    before do
+      allow(bob).to receive(:weapon).and_return rock
+      allow(bob).to receive(:update)
+      allow(scott).to receive(:update)
+    end
 
     example 'positive' do
       allow(Weapon).to receive(:compare).with(rock, scissors).and_return 1
@@ -45,24 +49,40 @@ describe Game do
     end
   end
 
+  context 'displays players points' do
+    subject(:new_game) { Game.new ashley, computer }
+    let(:ashley) { double :Ashley, weapon: 'paper'}
+    let(:computer) { double :Computer, weapon: 'rock' }
+
+    it 'updates players points' do
+      allow(ashley).to receive(:update)
+      new_game.throw
+      new_game.update_players_points
+    end
+  end
+
   context 'Playing against the computer' do
     subject(:computer_vs_human) { Game.new(bob, computer) }
     let(:bob) { double :Bob }
     let(:computer) { double :Computer }
+    before do
+      allow(bob).to receive(:update)
+      allow(computer).to receive(:update)
+    end
 
     example 'the Computer plays and loses' do
       allow(bob).to receive(:weapon).and_return scissors
       allow(computer).to receive(:weapon).and_return paper
       allow(Weapon).to receive(:compare).with(scissors, paper).and_return 1
       computer_vs_human.throw
-      expect(computer_vs_human.throw).to eq 1
+      expect(computer_vs_human.result).to eq 1
     end
   end
 
   context 'The end of the game' do
     subject(:finished_game) { Game.new(winning_player, other_player) }
     let(:winning_player) { double :Victor, points: 30 }
-    let(:other_player) {double :Dave, points: 10 }
+    let(:other_player) { double :Dave, points: 10 }
 
     describe '#game_over?' do
       it 'returns false if no-one of the players is at 30 points' do
