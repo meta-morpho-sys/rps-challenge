@@ -33,12 +33,12 @@ class Game
   end
 
   def update_players_points
-    @result == 1 ? player1.update : player2.update
-    # if @result == 1
-    #   player1.update
-    # elsif @result == -1
-    #   player2.update
-    # end
+    # @result == 1 ? player1.update : player2.update
+    if @result == 1
+      player1.update
+    elsif @result == -1
+      player2.update
+    end
   end
 
   def game_over?
