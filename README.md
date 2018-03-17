@@ -34,5 +34,7 @@ This app runs only on localhost. Sinatra will start up a server on port 9292.
 ![Start](readme_images/RPS1.png)
 ![Enter name](readme_images/RPS2.png)
 ![Choose weapon](readme_images/RPS3.png)
-![The winner is....](readme_images/RPS4.png)
+![Beats](readme_images/RPS4.png)
+![Displaying points](readme_images/RPS5.png)
+![The winner is....](readme_images/RPS6.png)
 
