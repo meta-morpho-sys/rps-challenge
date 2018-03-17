@@ -19,21 +19,8 @@
 
   <div class="content">
     <div class="chosen_weapons">
-      <% if @game.player1.weapon == 'rock' %>
-        <img src="/rock.png">
-      <% elsif @game.player1.weapon == 'paper' %>
-        <img src="/paper.png">
-      <% elsif @game.player1.weapon == 'scissors' %>
-        <img src="/scissors.png">
-      <% end %>
-
-      <% if @game.player2.weapon == 'rock' %>
-        <img src="/rock.png">
-      <% elsif @game.player2.weapon == 'paper' %>
-        <img src="/paper.png">
-      <% elsif @game.player2.weapon == 'scissors' %>
-        <img src="/scissors.png">
-      <% end %>
+      <img src="/<%=@game.player1.weapon%>.png">
+      <img src="/<%=@game.player2.weapon%>.png">
     </div>
     <h2>
       <% if @game.result == 1 %>
