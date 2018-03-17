@@ -33,7 +33,6 @@ class Game
   end
 
   def update_players_points
-    # @result == 1 ? player1.update : player2.update
     if @result == 1
       player1.update
     elsif @result == -1
@@ -47,6 +46,12 @@ class Game
 
   def winner
     winning_players.first
+  end
+
+  def histogram
+    h = Hash.new 0
+    100.times { h[Weapon.random] += 1 }
+    p h.to_s
   end
 
   private
